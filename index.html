@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aarya Shewale | UI/UX & Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+
+</head>
+
+<body>
+    <!-- Header / Navbar -->
+    <header class="header">
+        <div class="container nav-container">
+            <div class="logo">AARYA<span>SHEWALE</span></div>
+            <nav class="nav" id="nav">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#case-studies" class="nav-link">Case Studies</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <button class="nav-toggle" id="navToggle">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="section hero">
+        <div class="particles"></div>
+
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <p class="eyebrow">UI/UX Designer • Developer • AIML Student</p>
+                <h1>
+                    I design & build
+                    <span>clean, intuitive</span>
+                    digital products.
+                </h1>
+                <p class="hero-subtitle">
+                    I combine <strong>UI/UX design</strong> with <strong>MERN development</strong> and
+                    <strong>ML integration</strong> to create user-first web experiences.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="#contact" class="btn ghost">Contact Me</a>
+                </div>
+                <div class="hero-meta">
+                    <span>B.Tech CSE (AI/ML) • CSMU</span>
+                    <span>Based in Mumbai, India</span>
+                </div>
+            </div>
+            <div class="hero-card">
+                <div class="tag">Currently working on</div>
+                <h3>Desi Traveller – AI Tourism Platform</h3>
+                <p>
+                    Designing a responsive travel platform with an AI itinerary planner and
+                    hologram-style guide concept.
+                </p>
+                <ul class="pill-list">
+                    <li>Figma</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                    <li>MongoDB</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container section-header">
+            <h2>About Me</h2>
+            <p>
+                I’m Aarya, a Software Developer & UI/UX Designer who enjoys turning rough ideas
+                into structured, usable, and visually clean interfaces.
+            </p>
+        </div>
+        <div class="container about-grid">
+            <div class="about-block">
+                <h3>Who I Am</h3>
+                <p>
+                    I’m currently pursuing B.Tech in Computer Science & Engineering with a
+                    specialization in AI & ML at Chhatrapati Shivaji Maharaj University, Panvel.
+                    I work at the intersection of <strong>design</strong> and <strong>development</strong>:
+                    I design flows in Figma and actually implement them using modern web tech.
+                </p>
+            </div>
+            <div class="about-block">
+                <h3>How I Work</h3>
+                <p>
+                    I focus on user-centered design, clean information hierarchy, and
+                    responsive layouts. My process usually goes:
+                </p>
+                <ul class="simple-list">
+                    <li>Understand the problem & user needs</li>
+                    <li>Wireframe flows and key screens</li>
+                    <li>Design high-fidelity UI in Figma</li>
+                    <li>Implement using React / MERN where needed</li>
+                </ul>
+            </div>
+            <div class="about-block">
+                <h3>What I’m Exploring</h3>
+                <p>
+                    AI-enabled interfaces, gesture-based interaction systems, and IoT dashboards
+                    for real-time sensor data. I like projects where design and engineering both
+                    actually matter.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-alt">
+        <div class="container section-header">
+            <h2>Skills & Tools</h2>
+            <p>A mix of UI/UX thinking and full-stack implementation.</p>
+        </div>
+        <div class="container skills-grid">
+            <div class="skill-card">
+                <h3>UI/UX Design</h3>
+                <ul>
+                    <li>Figma – wireframes, prototypes, design systems</li>
+                    <li>User flows & information architecture</li>
+                    <li>Responsive layout & grid systems</li>
+                    <li>Component-based design</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <h3>Frontend</h3>
+                <ul>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>React.js, basic Tailwind CSS</li>
+                    <li>Responsive UI development</li>
+                    <li>Clean, maintainable components</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <h3>Backend & ML</h3>
+                <ul>
+                    <li>Node.js, Express.js</li>
+                    <li>MongoDB</li>
+                    <li>Python (Pandas, NumPy)</li>
+                    <li>ML model integration into web flows</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <h3>Workflow & Tools</h3>
+                <ul>
+                    <li>Git & GitHub</li>
+                    <li>VS Code</li>
+                    <li>Vercel deploys</li>
+                    <li>Basic API integrations</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container section-header">
+            <h2>Selected Projects</h2>
+            <p>End-to-end work where I handled both design and implementation.</p>
+        </div>
+        <div class="container cards-grid">
+            <!-- Desi Traveller -->
+            <article class="project-card">
+                <ul>
+                    <h4>Currently Working</h4>
+                </ul>
+                <h3>Desi Traveller – AI Tourism Platform</h3>
+                <p>
+                    A responsive platform for tourists to explore hotels, cafés, and events with
+                    an AI-powered trip planner and hologram-style guide concept.
+                </p>
+                <ul class="pill-list">
+                    <li>React</li>
+                    <li>Node.js</li>
+                    <li>MongoDB</li>
+                    <li>Figma</li>
+                </ul>
+                <div class="project-links">
+                    <a href="#" target="_blank">GitHub Repo</a>
+                    <a href="#" target="_blank">Live Demo</a>
+                </div>
+            </article>
+
+            <!-- Shravanam -->
+            <article class="project-card">
+                <ul>
+                    <h4>Currently Working</h4>
+                </ul>
+                <h3>Shravanam – Gesture-to-Text Assistive System</h3>
+                <p>
+                    UI flows and front-end for a gesture recognition system aimed at helping
+                    users communicate quickly in banks and hospitals.
+                </p>
+                <ul class="pill-list">
+                    <li>UI Flows</li>
+                    <li>Accessibility</li>
+                    <li>Assistive Tech</li>
+                </ul>
+                <div class="project-links">
+                    <a href="#" target="_blank">GitHub Repo</a>
+                </div>
+            </article>
+
+            <!-- Agrosha -->
+            <article class="project-card">
+                <h3>Agrosha – ML Crop Yield Platform</h3>
+                <p>
+                    Built a full-stack app that predicts crop yield using an ML model, with
+                    investment calculators, dynamic pricing, and a simple result experience.
+                </p>
+                <ul class="pill-list">
+                    <li>MERN</li>
+                    <li>ML Model</li>
+                    <li>UI/UX</li>
+                </ul>
+                <div class="project-links">
+                    <a href="https://github.com/AaryaShewale07/Agrosha" target="_blank">GitHub Repo</a>
+                    <a href="https://www.loom.com/share/171f59017d8a416892488d2c613bdd62" target="_blank">Live Demo</a>
+                </div>
+            </article>
+
+            <!-- GramCred -->
+            <article class="project-card">
+                <h3>GramCred – IoT Carbon Credit Monitoring</h3>
+                <p>
+                    IoT-based system that collects environmental sensor data, processes it with
+                    ML, and estimates carbon credits through a dashboard UI.
+                </p>
+                <ul class="pill-list">
+                    <li>IoT</li>
+                    <li>Sensors</li>
+                    <li>Python</li>
+                    <li>Dashboard UI</li>
+                </ul>
+                <div class="project-links">
+                    <a href="#" target="_blank">GitHub Repo</a>
+                </div>
+            </article>
+
+            <!-- Healthlink -->
+            <article class="project-card">
+                <h3>Healthlink – Diagnostics Center Management System</h3>
+                <p>
+                    A web platform for diagnostic centers to manage patient records, test bookings,
+                    lab workflows, and digitally deliver medical reports with secure access.
+                </p>
+                <ul class="pill-list">
+                    <li>Full-Stack</li>
+                    <li>Authentication</li>
+                    <li>Report Management</li>
+                    <li>Dashboard UI</li>
+                </ul>
+                <div class="project-links">
+                    <a href="#" target="_blank">GitHub Repo</a>
+                </div>
+            </article>
+
+            <!-- GDG Website -->
+            <article class="project-card">
+                <h3>GDG Community Website</h3>
+                <p>
+                    A modern community platform for showcasing GDG events, speaker sessions,
+                    team members, and registrations, built with a clean developer-focused UI.
+                </p>
+                <ul class="pill-list">
+                    <li>Frontend</li>
+                    <li>Events Module</li>
+                    <li>Responsive UI</li>
+                    <li>Animations</li>
+                </ul>
+                <div class="project-links">
+                    <a href="#" target="_blank">GitHub Repo</a>
+                </div>
+            </article>
+
+
+        </div>
+    </section>
+
+    <!-- Case Studies Section -->
+    <section id="case-studies" class="section section-alt">
+        <div class="container section-header">
+            <h2>UI/UX Case Studies</h2>
+            <p>Deep dives into how I think, design, and iterate.</p>
+        </div>
+        <div class="container case-grid">
+            <article class="case-card">
+                <h3>Desi Traveller – Reducing Friction in Travel Planning</h3>
+                <p class="case-tag">Travel UX • Web App</p>
+                <p>
+                    Designed the information architecture, flows, and visual system for a travel platform
+                    that merges stays, food, and events in one interface.
+                </p>
+                <ul class="case-points">
+                    <li>Problem → scattered travel planning across multiple apps.</li>
+                    <li>Solution → unified experience with guided suggestions.</li>
+                    <li>Work → flows, wireframes, high-fidelity UI, prototype.</li>
+                </ul>
+                <a href="https://www.figma.com/design/7PUyfbicMZVy0Pkb0JTtP9/DesiTraveller?node-id=0-1&t=iMK66Zb745rnQLoY-1"
+                    class="case-link" target="_blank">View Figma Case Study</a>
+            </article>
+
+            <article class="case-card">
+                <h3>Agrosha – Making ML Insights Understandable</h3>
+                <p class="case-tag">AgriTech UX • Web</p>
+                <p>
+                    Focused on making ML outputs (yield predictions, pricing) readable to non-technical users
+                    through clear layout, labels, and visual grouping.
+                </p>
+                <ul class="case-points">
+                    <li>Reduced cognitive load with step-wise forms.</li>
+                    <li>Separated inputs, predictions, and recommendations.</li>
+                    <li>Used emphasis and spacing for quick scanning.</li>
+                </ul>
+                <a href="https://www.figma.com/design/yOuUqepP8fAJpGYRyzPdnX/Agrosha?node-id=0-1&t=2Y81Glqf8DgZFoqo-1"
+                    class="case-link" target="_blank">View Figma Case Study</a>
+            </article>
+
+            <article class="case-card">
+                <h3>GramCred – Sensor Data to Carbon Insight</h3>
+                <p class="case-tag">IoT Dashboard • Data UX</p>
+                <p>
+                    Designed a dashboard to turn noisy sensor readings into clear, action-driven
+                    carbon credit metrics and trends.
+                </p>
+                <ul class="case-points">
+                    <li>Defined data hierarchy and priorities.</li>
+                    <li>Designed cards for alerts, trends, and metrics.</li>
+                    <li>Ensured readability across desktop-first layouts.</li>
+                </ul>
+                <a href="#" class="case-link" target="_blank">View Figma Case Study</a>
+            </article>
+
+            <article class="case-card">
+                <h3>GDG Community Website – Event & Chapter Hub</h3>
+                <p class="case-tag">Web Design • Community Platform</p>
+                <p>
+                    Built a clean, developer-centric website to showcase GDG events, speaker
+                    sessions, chapter details, and registration flows with a consistent brand feel.
+                </p>
+                <ul class="case-points">
+                    <li>Structured sections for events, team, and chapter info.</li>
+                    <li>Designed responsive layouts with smooth UI animations.</li>
+                    <li>Optimized the event cards and hero section for clarity.</li>
+                </ul>
+                <a href="https://www.figma.com/design/oAaTVP45AcdVZVhXxpH6xl/GDG-website?node-id=0-1&t=iMK66Zb745rnQLoY-1" class="case-link" target="_blank">View Figma Case Study</a>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container section-header">
+            <h2>Let’s Connect</h2>
+            <p>If you want to collaborate, discuss a project, or just talk design/dev, reach out.</p>
+        </div>
+        <div class="container contact-grid">
+            <div class="contact-block">
+                <h3>Details</h3>
+                <p><strong>Email:</strong> <a href="mailto:aaryashewale0307@gmail.com">aaryashewale0307@gmail.com</a>
+                </p>
+                <p><strong>Location:</strong> Mumbai, Maharashtra, India</p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/AaryaShewale07"
+                        target="_blank">AaryaShewale07</a></p>
+                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/aarya-shewale-4b04712ab/"
+                        target="_blank">Aarya Shewale LinkedIn</a></p>
+            </div>
+            <form id="contactForm" class="contact-form">
+                <h3>Quick Message</h3>
+
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input id="name" name="user_name" type="text" placeholder="Your name" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input id="email" name="user_email" type="email" placeholder="your@email.com" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Tell me about your project..."
+                        required></textarea>
+                </div>
+
+                <button type="submit" class="btn primary full-width">Send Message</button>
+
+                <p id="formStatus" class="form-status"></p>
+            </form>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <span>© <span id="year"></span> Aarya Shewale</span>
+            <span>UI/UX • Frontend • AI/ML</span>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
