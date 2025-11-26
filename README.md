@@ -3,7 +3,7 @@
 Welcome to my personal portfolio! This website showcases who I am, what I do, and some of the exciting projects I've worked on. Built with simplicity, responsiveness, and interactivity in mind, it reflects my journey and growth as a web developer and designer.
 
 ## 🔗 Live Website
-**[Click here to view the live portfolio](https://portfolio-mu-blond-42.vercel.app/)**  
+**[Click here to view the live portfolio](https://updated-portfolio-gamma-six.vercel.app/)**  
 
 
 ---
